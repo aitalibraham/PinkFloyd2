@@ -1,0 +1,17 @@
+Feature: Ajout membre
+
+@NouveauMembre
+
+Scenario: Un nouveau membre doit s'appeler <name> 
+   Given nouveau membre
+   When doit s'appeler
+   Then verifier nom    
+
+Scenario: Un nouveau membre doit avoir <age> ans
+	Given Un nouveau membre
+	When doit avoir
+	then verifier age
+	 
+   Examples:
+   |name     		|age    |
+   |David Gilmour   |75     |
