@@ -1,13 +1,6 @@
-package pinkfloyd;
-
-import static org.junit.Assert.*;
+package pinkfloyd2;
 
 import java.util.ArrayList;
-
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
 
 import junit.framework.TestCase;
 
